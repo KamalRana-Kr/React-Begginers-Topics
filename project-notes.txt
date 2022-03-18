@@ -1,0 +1,141 @@
+what is component:
+- component is represent the user interface.
+- Main component: header,sideBar,mainBody,footer and this all have in main component(App).  Total is 5 component.
+- component is the reusable.we use reuse with the new property and new imformation.
+
+YouTube Channel Link : https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+
+Why react and its advantages.
+1) REUSED code in react.
+-Its component reused
+2) React Declairative.
+- what is Declairative : what u want just tell here and react made its way.
+ex: when you tell to painter please make landscape they create that own way.
+
+reference videos
+codevolution chanel
+
+2) propes
+- why we use propes we are use reuse componeted in main component(App) so in wvery time the data are same comming like Hello kamal so your are use same component 3 time then hello kamal come three time so that time the PROPS help us.
+
+3) div
+- we use div for multiple return html tab store in div and then only one div tab we return in component.(group)
+
+4)softwares :
+vscode,node,js,postman.
+
+5)Hooks:
+- we use state wihout writing the class.
+
+6)JSX(javascript XML):
+- extaintion to the javascript systex.
+- write XML : elements and components.
+- jsx makes easy and elegant code.
+- jsx diff is keyword like(class-> className , for-> htmlFor , camleCase (  onclick -> onClick,tabindex -> tabIndex))
+
+7)props and states
+ - props:                                               states:
+    - propes pass to the component.                     - state is managed within the components.
+    - passed into the function.                          - variable declaire in the function body.
+    - props are immutable.                               - state can be changed.
+    - props - for function component.                              - useState Hook - for function component 
+    - this.props - for class component.                            - this.state - for class component.   
+
+8) Event handle in react
+- we tried the function event and class event>
+- refer = function event: FunctionClick.js , class event : ClassClick.js
+
+9) Method as props
+- parentComponent and Childcomponet file refer
+
+10)Event handle
+- refer EventHandler.js file
+
+11)Conditional Rendering
+- if/else 
+- Element variable
+- Ternary Conditional operator
+- Short circuit operators 
+refer : UserGreeting.js
+
+12)List Rendering
+- refer : NameList.js
+
+13)react hook : use setState Hook
+- class hook : classCounter.js
+- function hook,how to use sta  te hook into react : hookCounter.js 
+- Learn : Rules of react Hooks
+
+14)Destructuring
+- Destructur props and state : Destructuring.js
+
+15)Basic form Handling(part 21)
+-controlled the component
+- syntex understand:
+
+16)lifecycle method(Part:22)
+- Mounting
+- UpDating
+- UnMounting
+- Error Handling
+
+ 17)Mounting = part:23
+- what is constructor :aa tyare call thase jayare new component create karie.
+- what is super() : this is a special method after define we used this.props directly.
+- constructor -> static getDerivedStateFromProps(props,state) -> render():this is only for class component 
+
+18)lifecycle:
+- part:24
+- Discuss update component lifecycle
+
+19)Fragments 
+- part:25
+- WHY WE USE DIV<> TAG MUST IMPOTANT.
+- React.Fragment
+- Understanding with example table and columns file
+
+20)Component and Pure-Component in React
+- Part : 26
+- what is shallow comparison(SC)
+- primitive and complex type
+- primitives : shallow comparison means same type and same value
+- complex : same type same value with same reference obj like a===a
+- component : every time re-render.
+- pure-component : when should component update that time its render.only work with class component.
+- if you want same result in function refer part : 27 memo
+
+21) Memo : part: 27
+- this is only for function component
+
+22)refs : part:28
+- inputtype tag we focus on input value on refresh
+- focus
+- value
+- ref with function
+
+23) ref with class part:29
+- if you use parent to child no working ref in function only work with class
+- focus cursor
+
+24)ref forwarding Part:30
+- automatically pass a ref component to one of its childer.
+- file name:FRInput.js
+- parent button na button par click karish to child na input par focus thase.
+
+25)React Portal part:31
+- add div id = "portal-app"
+- PortalDemo.js
+
+26)Error handling phase method part:32
+-staticGetDerivedStateFromError(error)
+-componentDidCatch(error,info)
+- Hero.js , ErrorBoundry.js
+- Proper Error handling UI for refer this video
+
+27)Higher order components part:33(part:1)
+- withCounter.js
+
+28)context : 
+part:38
+- app in have comp C -> C comp have E -> E comp have F.
+its like nested component calling.
